@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html ng-app="madLibsModule">
+<head>
+  <meta charset="utf-8">
+  <link href="https://fonts.googleapis.com/css?family=Bungee+Inline|Bungee+Outline|Keania+One|Lato" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" href="stylin.css">
+
+  <script src="lib/angular.min.js"></script>
+  <script src="lib/angular-route.min.js"></script>
+  <script src="module.js"></script>
+  <script src="madlib-factory.js"></script>
+  <script src="inputController.js"></script>
+  <script src="outputController.js"></script>
+
+  <title>90s Rap App</title>
+</head>
+
+
+<body>
+  <nav>
+    <a href="#/input">Words</a> //
+    <a href="#/output">Get Jiggy With It</a>
+  </nav>
+
+  <div id="view" ng-view="">
+    WAIT FOR IT...
+  </div>
+
+
+
+</body>
+</html>

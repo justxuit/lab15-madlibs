@@ -1,0 +1,87 @@
+body {
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 1.5px;
+  background-image: url("img/rad-rad.jpg");
+  background-repeat: repeat;
+  color: #d9d9d9;
+}
+
+nav {
+  font-family: 'Bungee Outline', cursive;
+  width: 38%;
+  margin: 25px auto 10px auto;
+  display: block;
+  border: 6px double #02b19e;
+  text-align: center;
+  padding: 10px;
+  font-size: 1.5em;
+  font-weight: bold;
+  background-color: #012528;
+  letter-spacing: 0.1em;
+  word-spacing: 0.4em;
+}
+
+a {
+  color: #02b19e;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:visited {
+  color: #02b19e;
+}
+
+a:hover {
+  color: #ef7a89;
+}
+
+.center-div {
+  display: block;
+  width: 38%;
+  margin: auto;
+  border: 6px double #02b19e;
+  padding: 0 0 0 20px;
+  background-color: #012528;
+}
+
+form {
+  font-size: 1em;
+  padding: 10px;
+  width: 50%;
+  margin: auto;
+}
+
+label {
+  font-family: 'Bungee Inline', cursive;
+  font-size: 0.8em;
+  line-height: 25%;
+  color: #ef7a89;
+}
+
+input {
+  padding: 4px;
+  word-spacing: 2px;
+  width: 80%;
+  margin: auto;
+  display: block;
+  margin: 6px;
+  padding: 8px 10px;
+  font-family: monospace;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: #d9d9d9;
+}
+
+button {
+  width: 200px;
+  margin: 4% auto;
+  background-color: #02b19e;
+  color: black;
+  font-family: 'Bungee Inline', cursive;
+}
+
+.stylin {
+  font-weight: bold;
+  color: #ef7a89;
+}
