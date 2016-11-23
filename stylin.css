@@ -8,7 +8,7 @@ body {
 
 nav {
   font-family: 'Bungee Outline', cursive;
-  width: 38%;
+  width: 42%;
   margin: 25px auto 10px auto;
   display: block;
   border: 6px double #02b19e;
@@ -37,7 +37,7 @@ a:hover {
 
 .center-div {
   display: block;
-  width: 38%;
+  width: 42%;
   margin: auto;
   border: 6px double #02b19e;
   padding: 0 0 0 20px;
@@ -45,6 +45,7 @@ a:hover {
 }
 
 form {
+  display: block;
   font-size: 1em;
   padding: 10px;
   width: 50%;
@@ -61,10 +62,9 @@ label {
 input {
   padding: 4px;
   word-spacing: 2px;
-  width: 80%;
-  margin: auto;
+  width: 100%;
   display: block;
-  margin: 6px;
+  margin: 4px auto 12px auto;
   padding: 8px 10px;
   font-family: monospace;
   border: 1px solid #cccccc;
@@ -74,9 +74,11 @@ input {
 }
 
 button {
+  display: block;
   width: 200px;
-  margin: 4% auto;
+  margin: 10% auto 4% auto;
   background-color: #02b19e;
+  border-radius: 4px;
   color: black;
   font-family: 'Bungee Inline', cursive;
 }
